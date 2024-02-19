@@ -1,0 +1,32 @@
+p{
+    color: ;
+}
+
+ul{
+    font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--separator-color);
+            background-color: #fff;
+}
+
+.box1{
+    margin: 30px;
+    background-color: #ff6347;
+    border-radius: 2px;
+    font-weight: bold; font-style: bold;
+    width: 50px;
+    text-align: center;
+    
+
+}
+
+.box2{
+    margin: 30px;
+    background-color:#40e0d0;
+    border-radius: 2px;
+    font-weight: bold;
+    width: 50px;
+    text-align: center;
+
+}

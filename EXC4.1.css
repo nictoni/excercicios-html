@@ -1,0 +1,8 @@
+
+    
+   li {
+        margin: 5px;
+        padding: 10px 20px; /* 10px para cima, 20px para a direita, 10px para baixo, 20px para a esquerda */
+        background-color: #f0f0f0; /* Adiciona uma cor de fundo para destacar os itens da lista */
+    }
+

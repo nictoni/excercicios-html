@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .sumario {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 0;
+        }
+
+        .sumario li {
+            padding: 15px;
+            background-color: var(--separator-color);
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .sumario li:nth-child(even) {
+            background-color: #fff;
+        }
+
+        .tecnologia {
+            font-weight: bold;
+        }
+
+        .tag-color-1 { color: #ff5733; }
+        .tag-color-2 { color: #33ff57; }
+        .tag-color-3 { color: #5733ff; }
+        /* Adicione mais variáveis de cor conforme necessário */
+
+        .tag-color-1, .tag-color-2, .tag-color-3 {
+            display: inline-block;
+            padding: 5px;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    </style>
+    <title>Sumário Estilizado</title>
+</head>
+<body>
+
+    <ul class="sumario">
+        <li><span class="tecnologia tag-color-1">Tecnologia 1</span> - Tópico 1</li>
+        <li><span class="tecnologia tag-color-2">Tecnologia 2</span> - Tópico 2</li>
+        <li><span class="tecnologia tag-color-3">Tecnologia 3</span> - Tópico 3</li>
+        <li><span class="tecnologia tag-color-1">Tecnologia 1</span> - Tópico 4</li>
+        <li><span class="tecnologia tag-color-2">Tecnologia 2</span> - Tópico 5</li>
+        <li><span class="tecnologia tag-color-3">Tecnologia 3</span> - Tópico 6</li>
+        <li><span class="tecnologia tag-color-1">Tecnologia 1</span> - Tópico 7</li>
+        <li><span class="tecnologia tag-color-2">Tecnologia 2</span> - Tópico 8</li>
+        <li><span class="tecnologia tag-color-3">Tecnologia 3</span> - Tópico 9</li>
+        <li><span class="tecnologia tag-color-1">Tecnologia 1</span> - Tópico 10</li>
+    </ul>
+
+    <!-- Simulação de conteúdo para permitir rolar a página -->
+    <div style="height: 1500px; background-color: #e0e0e0; padding: 20px;">
+        <p>Conteúdo da Página...</p>
+    </div>
+
+</body>
+</html>

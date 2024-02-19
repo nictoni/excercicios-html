@@ -1,0 +1,7 @@
+li {
+    display: inline; /* Define o status de exibição para inline */
+    border: 8px double #333;
+    list-style-type: none; /* Remove o estilo padrão de lista */
+    margin-right: 10px; /* Adiciona um espaçamento à direita entre as <li> */
+    padding: 5px; /* Adiciona um preenchimento interno à <li> */
+}
